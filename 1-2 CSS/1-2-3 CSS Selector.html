@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style type="text/css">
+        .Class1, .Class2, .Class3{
+            width: 500px;
+            height: 33px;
+            color: dodgerblue;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        #elementID0{
+        color: purple;
+        }
+        #elementID1{
+        color: greenyellow;
+        }
+        #elementID2{
+        color: cyan;
+        }
+        .blue{color: blue}
+        .strong{font-weight: bold}
+        .big{font-size: 22px}
+        .box{width: 2200px;height: 330px;background: whitesmoke}
+
+        p{
+            font-size: 16px;
+            color: cadetblue;
+        }
+        div h3{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to Web development, YoCoco.</h2>
+    <h2>2024-7-10 14:02</h2>
+    <hr>
+    <h3>CSS Selector</h3>
+    <hr>
+    <p>1: Tag Selector</p>
+    <hr>
+    <p class="blue strong">Class Selector Demo1</p>
+    <p class="strong">Class Selector Demo2</p>
+    <p class="big blue">Class Selector Demo2</p>
+    <hr>
+    <h3>2: Hierarchical Selector</h3>
+    <hr>
+    <h3>"h3" element that are not directly within a specific div</h3>
+    <div>
+        <h3>Content in div.</h3>
+        <p>The quick brown fox jumps over the lazy dog.</p>
+    </div>
+<hr>
+<h3>3: ID Selector</h3>
+<hr>
+<p id="elementID0">The ID of each element is unique.</p>
+<p id="elementID1">The First Paragraph</p>
+<p id="elementID2">The Second Paragraph</p>
+<hr>
+<h3>4: Group Selector</h3>
+<hr>
+<div class="Class1">div1</div>
+    <br>
+<div class="Class2">div2</div>
+    <br>
+<div class="Class3">div3</div>
+</body>
+</html>
